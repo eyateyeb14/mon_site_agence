@@ -1,0 +1,72 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+}
+.header-voyages{
+    background-color: #f8fe77;
+    border: 2px solid #fbda5f;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+.logo-container{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.logo-img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+nav-voyages{
+    background-color: #fbda5f;
+    width: 30%;
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-voyages a{
+    color: #000000;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.main-voyages{
+    background-color: #e9f13d;
+    min-height: 80vh;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gallery-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    max-width: 900px;
+}
+.gallery-container img{
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    object-fit: cover;
+}
+.footer-voyages{
+    background-color:#f8fe77 ;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    font-size: 0.9rem;
+}
